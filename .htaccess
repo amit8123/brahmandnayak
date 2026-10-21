@@ -1,0 +1,16 @@
+# Laravel in a normal web folder: send every request to /public
+# (use this only when the domain's document root is the project folder itself;
+#  if the document root already points to /public this file is not used)
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # never serve sensitive files
+    RewriteRule (^|/)\.(env|git) - [F,L]
+    RewriteRule ^(composer\.(json|lock)|artisan|server\.php)$ - [F,L]
+
+    # everything else goes to public/
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

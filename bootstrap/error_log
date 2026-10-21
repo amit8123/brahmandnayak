@@ -1,0 +1,4 @@
+[17-Aug-2021 05:55:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/ashhwra2/zppalghar.gov.in/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/bootstrap/app.php on line 14

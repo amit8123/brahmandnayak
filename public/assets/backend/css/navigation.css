@@ -1,0 +1,35 @@
+/* Created by Yasin Allan on 12/26/2017 */
+
+.navbar {
+  padding: 0 0.5rem;
+}
+
+/* nav brand */
+.navbar .navbar-brand {
+  padding: 0;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.navbar .navbar-brand .logo {
+  width: auto;
+  height: 46px;
+}
+
+/* nav links */
+.navbar .navbar-nav .nav-item {
+  padding: 0.5rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+  background-color: #00579b !important;
+  color: #ffffff !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link .badge {
+  font-size: 14px;
+}

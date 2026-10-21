@@ -1,0 +1,44 @@
+[17-Aug-2021 05:54:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ashhwra2/zppalghar.gov.in/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/config/app.php on line 16
+[17-Aug-2021 05:56:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/ashhwra2/zppalghar.gov.in/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/config/view.php on line 17
+[17-Aug-2021 05:56:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ashhwra2/zppalghar.gov.in/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/config/mail.php on line 16
+[17-Aug-2021 05:57:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ashhwra2/zppalghar.gov.in/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/config/cache.php on line 21
+[17-Aug-2021 05:57:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ashhwra2/zppalghar.gov.in/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/config/queue.php on line 16
+[17-Aug-2021 05:58:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ashhwra2/zppalghar.gov.in/config/captcha.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/config/captcha.php on line 4
+[17-Aug-2021 05:59:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ashhwra2/zppalghar.gov.in/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/config/session.php on line 21
+[17-Aug-2021 05:59:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ashhwra2/zppalghar.gov.in/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/config/database.php on line 18
+[17-Aug-2021 06:16:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ashhwra2/zppalghar.gov.in/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/config/cache.php on line 21
+[17-Aug-2021 07:28:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ashhwra2/zppalghar.gov.in/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/config/app.php on line 16
+[17-Aug-2021 07:29:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ashhwra2/zppalghar.gov.in/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/config/session.php on line 21

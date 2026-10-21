@@ -1,0 +1,140 @@
+/**
+Header
+*/
+.header-container {
+    img {
+        display: block;
+
+        &.emblem {
+            height: 120px;
+        }
+
+        &.palghar-seal {
+            height: 120px;
+        }
+
+        &.seal-of-maharashtra {
+            width: 120px;
+            height: 120px;
+        }
+    }
+}
+
+/**
+Navigation
+*/
+.navigation {
+    .navbar-toggler {
+        color: rgb(255, 255, 255);
+        border-color: rgb(255, 255, 255);
+        outline: none;
+
+        .navbar-toggler-icon {
+            stroke: #ffffff;
+            color: #ffffff;
+
+        }
+    }
+
+    a {
+        color: inherit !important;
+    }
+}
+
+.parallax-image-container {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+
+    .parallax-image {
+        position: absolute;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .links {
+        a {
+            color: inherit;
+            font-size: 18px;
+            padding: 5px 0;
+
+            &:not(:first-child) {
+                margin-left: 10px;
+                padding: 5px 10px;
+                border-left: 1px solid #e0e0e0;
+            }
+        }
+    }
+}
+
+
+.nivida-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+  & thead{
+      & tr {
+        & th {
+            text-align: left;
+            color: #444444;
+            padding: 12px 8px;
+            border: 1px solid #ddd;
+        }
+      }
+    
+  }
+
+  & tbody{
+    & tr {
+        &:nth-child(even){background-color: #f2f2f2;}
+        &:hover {background-color: #ddd;}
+        
+        & td{
+            text-align: left;
+           padding: 12px 8px;
+           border: 1px solid #ddd;
+
+           i.download-icon {
+               font-size: 36px;
+
+           }
+        }
+    }
+  }
+}
+
+.footer {
+    .logo-title-card {
+        box-shadow: 0px 0px 10px 0px #1E88E5;
+        border-radius: 5px;
+
+        .palghar-seal {
+            width: 100px;
+        }
+
+        .title {
+            font-size: 18px;
+            margin-left: 20px;
+        }
+    }
+
+    .site-links {
+        .header {
+            font-size: 20px;
+        }
+
+        .links {
+            margin-top: 10px;
+
+            a {
+                color: inherit;
+            }
+        }
+    }
+}

@@ -1,0 +1,4 @@
+[17-Aug-2021 06:09:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Factories\Factory' not found in /home/ashhwra2/zppalghar.gov.in/database/factories/UserFactory.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/database/factories/UserFactory.php on line 9

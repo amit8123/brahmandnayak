@@ -1,0 +1,8 @@
+[17-Aug-2021 06:18:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/ashhwra2/zppalghar.gov.in/database/seeders/DatabaseSeeder.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/database/seeders/DatabaseSeeder.php on line 6
+[17-Aug-2021 06:19:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/ashhwra2/zppalghar.gov.in/database/seeders/UserTableSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ashhwra2/zppalghar.gov.in/database/seeders/UserTableSeeder.php on line 7
